@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Dishu Mavi - Software Developer, Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <!--It's a div for the navigation bar-->
+        <nav>
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="intro.html"><li>My Intro</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="blog.html"><li>Blog</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+          </ul>
+          <a href=""
+            ><img
+              class="img1"
+              src="/facebook.png"
+              alt="facebook-account"
+              srcset=""
+          /></a>
+          <a href=""
+            ><img
+              class="img2"
+              src="/instagram.png"
+              alt="facebook-account"
+              srcset=""
+          /></a>
+          <a href=""
+            ><img
+              class="img3"
+              src="/github.png"
+              alt="facebook-account"
+              srcset=""
+          /></a>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="/menuIcon.png" alt="menuIcon" srcset="" />
+          <img class="cros" src="/cros.png" alt="cross" srcset="" />
+        </div>
+        <!--It's a div for the main content-->
+        <div class="contactform">
+          <h1>Contact me for work/ general enquiries.</h1>
+          <div class="mb-3 nameclass">
+            <label for="exampleInputPassword1" class="Name form-label"
+              >Full Name</label
+            >
+            <input type="text" class="form-control" id="clientname" />
+          </div>
+          <form id="form" class="form">
+            <div class="mb-3 emailclass">
+              <label for="clientemail" class="clientemail">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="clientemail"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailinfo" class="form-text">
+                We'll never share your email & phone number with anyone else.
+              </div>
+            </div>
+            <div class="mb-3 phoneclass">
+              <label for="exampleInputPassword1" class="phone form-label"
+                >Phone</label
+              >
+              <input type="phone" class="form-control" id="clientphone" />
+            </div>
+            <div class="mb-3 form-check checkbox">
+              <input type="checkbox" class="form-check-input" id="isclient" />
+              <label class="form-check-label" for="isclient"
+                >Work on a Project</label
+              >
+            </div>
+            <div class="btn">
+              <button type="submit" id="btn-sm" class="btn btn-sm">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/index.js"></script>
+</html>

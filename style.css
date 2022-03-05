@@ -1,0 +1,337 @@
+/* first of all we just look at the position and width of the div by just giving them any colour. */
+/* Here the pixel is more responsive than vh */
+/* reponsiveness : whether your website is morking under every phone or not that decides the responsiveness of your website */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#footer{
+  color:black;
+  font-size: 17px;
+  margin-top: 5px;
+  text-align: center;
+}
+.footerdiv{
+  background-color: transparent;
+  margin-top: 0;
+  padding: 12px;
+}
+.sidebar {
+  background-color:rgb(206, 77, 103);
+  width: 220px;
+  transition: transform 0.3s ease-in;
+  font-family: "Roboto", sans-serif;
+  height:700px;
+}
+.sidebar nav {
+  margin-top: 20px;
+}
+.sidebar li {
+  font-family: "Fira Sans", sans-serif;
+  list-style: none;
+  font-size: 22px;
+  padding: 25px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar a:hover {
+  color: white;
+}
+.main {
+  /* background-color: yellow; */
+  width: 86vw;
+  height: auto;
+}
+.container {
+  display: flex; /*1. it will make the slidebar and main side by side*/
+}
+.infoContainer {
+  /* background-color: green; */
+  padding: 20px;
+  margin: 100px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Since we that the display flex will make the content side by side so to make it vertically we use flex-direction*/
+}
+.hello {
+  color: crimson;
+  font-size: 50px;
+  font-family: "Manrope", sans-serif;
+  font-weight: lighter;
+}
+.name {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.about {
+  font-size: 25px;
+  font-family: "Manrope", sans-serif;
+}
+.btn button {
+  margin: 10px 0px;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 40px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+#btn-sm {
+  /* Contact Save button */
+  padding: 5px 15px;
+}
+#contactme{
+  /* Contact Me on the index page */
+  margin-left: 20px;
+}
+.btn button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+.devPic img {
+  width: 300px;
+  height: 360px;
+}
+.contactform {
+  margin-top: 150px;
+  margin-left: 40px;
+  font-family: "Manrope", sans-serif;
+}
+.contactform h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+#form {
+  margin-top: 25px;
+}
+
+.form div {
+  margin-top: 15px;
+}
+.form button {
+  margin-top: 10px;
+}
+
+.Name {
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
+}
+#clientname {
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.clientemail {
+  /* Email address */
+  display: flex;
+  font-size: 25px;
+}
+#clientemail {
+  /* Input for email address */
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#emailinfo {
+  /* We'll never share your email & phone number with anyone else. */
+  margin-top: 2px;
+  font-size: 13px;
+  color: cadetblue;
+}
+.phone {
+  /* Phone Label */
+  display: flex;
+  font-size: 25px;
+}
+#clientphone {
+  /* Phone no input */
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.introcontainer {
+  margin: 50px 50px;
+}
+.introcontainer h2 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.aboutme p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "Manrope", sans-serif;
+}
+
+.skillitem {
+  margin-top: 12px;
+}
+.skill {
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.skilllevel {
+  margin-left: 5px;
+  width: 100px;
+  height: 10px;
+  border: 2px solid black;
+}
+.level1 {
+  width: 99px;
+  height: 10px;
+  background-color: red;
+}
+.level2 {
+  width: 75px;
+  height: 10px;
+  background-color: green;
+}
+.level3 {
+  width: 50px;
+  height: 10px;
+  background-color: greenyellow;
+}
+
+.projectname {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+}
+.project1 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.project2 {
+  margin-top: 10px;
+  display: flex;
+}
+.btn-2 {
+  border-radius: 40px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  padding: 1px 5px;
+  margin-left: 30px;
+  font-family: "Manrope", sans-serif;
+}
+
+.btn-2:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+.projectdescp {
+  font-family: "Manrope", sans-serif;
+  margin-left: 10px;
+}
+.hamburger {
+  margin-top: 5px;
+  position: absolute;
+  left: 0px;
+}
+.ham {
+  margin-left: 5px;
+  width: 40px;
+  cursor: pointer;
+}
+.sidebarGo {
+  transform: translate(-223px, 0px);
+  position: absolute;
+}
+.cros {
+  width: 40px;
+  cursor: pointer;
+  margin-left: 175px;
+}
+.blogList {
+  margin: 40px 70px;
+}
+.blog1 {
+  margin-top: 10px;
+}
+.btn-link {
+  /* margin: 15px 8px; */
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 40px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+.btn-link:hover{
+  background-color: white;
+  color: dodgerblue;
+}
+.img1{
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 20px;
+  width: 36px;
+  cursor: pointer;
+}
+.img2{
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 65px;
+  width: 32px;
+  cursor: pointer;
+}
+.img3{
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 110px;
+  width: 25px;
+  cursor: pointer;
+}
+.serviceHeading{
+  font-size: 30px;
+  margin: 12px 70px;
+}
+.serviceList{
+  display: flex;
+  margin: 10px 70px;
+}
+.serviceList li{
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  margin: 0px 10px;
+  font-size: 20px;
+  list-style: none;
+}
+.serviceList li:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  margin-top: 200px;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
