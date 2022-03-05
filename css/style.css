@@ -1,6 +1,4 @@
-/* first of all we just look at the position and width of the div by just giving them any colour. */
-/* Here the pixel is more responsive than vh */
-/* reponsiveness : whether your website is morking under every phone or not that decides the responsiveness of your website */
+/* links for external font */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
@@ -261,7 +259,7 @@
 .cros {
   width: 40px;
   cursor: pointer;
-  margin-left: 175px;
+  margin-left: 170px;
 }
 .blogList {
   margin: 40px 70px;
@@ -292,14 +290,14 @@
 .img2{
   position: absolute;
   margin-top: 13px;
-  margin-left: 65px;
+  margin-left: 60px;
   width: 32px;
   cursor: pointer;
 }
 .img3{
   position: absolute;
   margin-top: 16px;
-  margin-left: 110px;
+  margin-left: 100px;
   width: 25px;
   cursor: pointer;
 }
@@ -334,4 +332,19 @@
   margin-top: 200px;
   font-size: 25px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:1102px) and (min-width:830px){
+  .cros{
+    margin-left: 140px;
+  }
+}
+@media (max-width:830px) and (min-width:472px){
+  .cros{
+    margin-left: 120px;
+  }
+}
+@media (max-width:472px) and (min-width:10px){
+  .cros{
+    margin-left: 90px;
+  }
 }
